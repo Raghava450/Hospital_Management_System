@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+
+:root{
+    --maincolor:blue;
+    --secondcolor:#f8a803;
+    --thirdcolor:#f4ab01;
+    --textcolor:#000000;
+}
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    background-image: url("backgroung-pattern-1.png");
+    
+    background-size: cover;
+  }
+ 
+  .mainform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+
+  .subform {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    background: white;
+  }
+  .label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--maincolor);
+    margin-bottom: 12px;
+  }
+  .form {
+    margin-bottom: 20px;
+    padding-top: 12px;
+  }
+  input{
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    outline: none;
+    resize: none;
+  }
+  input:hover{
+    background-color: var(--secondcolor);
+    color: #6a64f1;
+  }
+  input::placeholder{
+    color: var(--textcolor);
+  }
+  .fbutton {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #6a64f1;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .fbutton:hover{
+    background-color: var(--secondcolor);
+  }
+  
+  .flex {
+    display: flex;
+  }
+
+  .mform {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .pform {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+ .labelx{
+    color: var(--maincolor);
+  }
